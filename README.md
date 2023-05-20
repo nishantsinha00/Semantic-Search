@@ -7,17 +7,17 @@ The Semantic Search project aims to build a search system that understands the m
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Technologies](#technologies)
+- [Links](#links)
 
 ## Overview
 
-Provide an overview of your project. Explain its purpose, main features, and any relevant background information or context. Include any badges or shields to highlight important information, such as build status or version numbers.
+Traditional keyword-based search systems rely on exact matches between search queries and document contents. However, they may fail to capture the intended meaning behind user queries or miss semantically related documents. Semantic search addresses this limitation by considering the underlying semantics and relationships between words, phrases, and documents.
+
+The Semantic Search project utilizes advanced NLP techniques, such as word embeddings, sentence embeddings, and semantic similarity measures, to capture the semantic meaning of documents and queries. It utilizes the  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face Logo" width="20">  tranformers library
+ to transform text into high-dimensional vector representations that capture semantic information.
 
 ## Features
-
-List the key features of your project. Use bullet points or a numbered list to make it easy to read and understand.
 
 - Semantic Embeddings: Utilizes word embeddings and sentence embeddings to capture the semantic meaning of text.
 - Similarity Measurement: Computes the similarity between queries and documents using cosine similarity or other distance metrics.
@@ -27,10 +27,24 @@ List the key features of your project. Use bullet points or a numbered list to m
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies or system requirements. Use code blocks or a numbered list to guide users through the installation process.
-
 ```bash
-# Installation steps
-$ git clone https://github.com/yourusername/yourproject.git
-$ cd yourproject
+# Steps to reproduce
+$ git clone https://github.com/nishantsinha00/Semantic-Search.git
 $ pip install -r requirements.txt
+$ python semantic_data.py # Creates data on pinecone database
+$ python app.py # runs app on local machine
+```
+After running the abov mentioned commands. Follow the link that will appear after running the <b>app.py</b> file.
+
+## Technologies
+
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
+- [Gradio](https://gradio.app/)
+- [Pinecone](https://www.pinecone.io/)
+
+## Links
+- [Gradio Semantic Search App](https://huggingface.co/spaces/nishantsinha00/Gradio-Semantic-Search-App)
+- [LinkedIn](https://www.linkedin.com/in/nishant-sinha-201885191/)
+
+
+
