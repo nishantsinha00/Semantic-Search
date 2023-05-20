@@ -50,6 +50,7 @@ After running the above mentioned commands. Follow the link that will appear aft
 ## Links
 - [Gradio Semantic Search App](https://huggingface.co/spaces/nishantsinha00/Gradio-Semantic-Search-App)
 - [LinkedIn](https://www.linkedin.com/in/nishant-sinha-201885191/)
+- [Video walkthrough of project](https://youtu.be/PUvjFX0KNJM)
 
 
 
