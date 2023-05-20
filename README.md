@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 $ python semantic_data.py # Creates data on pinecone database
 $ python app.py # runs app on local machine
 ```
-After running the abov mentioned commands. Follow the link that will appear after running the <b>app.py</b> file.
+After running the above mentioned commands. Follow the link that will appear after running the <b>app.py</b> file.
 
 ## Technologies
 
