@@ -30,11 +30,15 @@ The Semantic Search project utilizes advanced NLP techniques, such as word embed
 ```bash
 # Steps to reproduce
 $ git clone https://github.com/nishantsinha00/Semantic-Search.git
+$ conda create -n hf_env python=3.8 
+$ proceed ([y]/n)? # When conda asks you to proceed, type 'y'
 $ pip install -r requirements.txt
 $ python semantic_data.py # Creates data on pinecone database
 $ python app.py # runs app on local machine
 ```
 After running the above mentioned commands. Follow the link that will appear after running the <b>app.py</b> file.
+
+<b>NOTE: Having a Anaconda distribution as a prerequisite is advisable.</b>
 
 ## Technologies
 
